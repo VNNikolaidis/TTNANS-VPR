@@ -1,0 +1,58 @@
+// MAKEHELP.BAT generated Help Map file.  Used by VPR.HPJ. 
+ 
+// Commands (ID_* and IDM_*) 
+HID_DATASET_SCALE                       0x10002
+HID_DATASET_SAVE                        0x10004
+HID_MISC_PROPERTIES                     0x103F9
+HID_MISC_PAUSE                          0x10416
+HID_MISC_ABORT                          0x10417
+HID_MISC_TTNANS                         0x18004
+HID_MISC_CLEARSCREEN_ON                 0x18009
+HID_MISC_CLS_OFF                        0x1800A
+HID_MISC_CLEARSCREEN_OFF                0x1800E
+HID_MISC_SELECTFONT                     0x1800F
+HID_MISC_HINT                           0x18010
+HID_MISC_PRBPROPERTIES                  0x18011
+HID_RUN_TTNMENU1                        0x18015
+HID_RUN_TTNMENU2                        0x18016
+HID_RUN_TTNMENU3                        0x18017
+HID_RUN_TTNMENU4                        0x18018
+HID_RUN_TTNMENU5                        0x18019
+HID_RUN_TTNMENU6                        0x1801A
+HID_MISC_TEXTOUTPUTON                   0x1801C
+HID_MISC_TEXTOUTPUTOFF                  0x1801D
+HID_MISC_CLEARSCREEN_NOW                0x18020
+HID_RUN_TTNMENU7                        0x18021
+HID_MISC_MODALDLGS                      0x18023
+HID_RUN_TTNANS                          0x18024
+HID_MISC_SETSINWIN                      0x18025
+HID_RUN_TTNANS_REC                      0x18026
+HID_MISC_WWRAP                          0x18027
+HID_MISC_OPTIONS                        0x18028
+HID_MISC_OLDFILEREQ                     0x1802B
+HID_RUN_TTNMENU8                        0x1802C
+HID_MACRO                               0x18034
+HID_MISC_SETHCDELAY                     0x1803A
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_VPRTYPE                            0x20081
+HIDR_HINTMENU                           0x20093
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_SD_REQSTRING                       0x20082
+HIDD_SD_MENU                            0x20083
+HIDD_SD_SPLASH                          0x20084
+HIDD_SD_PROGRESS                        0x20087
+HIDD_SP_COPYRIGHT                       0x2008A
+HIDD_SP_RICHEDIT                        0x2008B
+HIDD_SP_PAGE_1                          0x2008E
+HIDD_SD_HINT                            0x20092
+HIDD_SD_DATASET                         0x20095
+HIDD_SD_OPTIONS                         0x2009E
+HIDD_SD_MACRO                           0x2009F
+ 
+// Frame Controls (IDW_*) 
