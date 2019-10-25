@@ -1,5 +1,5 @@
 # TTNANS-VPR
-Pattern Recognition and Data Analysis Software that was created around 1995 and later.
+Pattern Recognition and Data Analysis Software written in C++ and created around 1995 as part of my PhD work.
 
 VPR has an MS-Windows shell, while TTNANS was the text-only (console) version (with versions for MSDOS and Amiga Workbench).
 
