@@ -1,0 +1,161 @@
+ 
+OBJ = tglobal.o \
+    ttnans.o \
+    ttnans1.o \
+    ttnans2.o \
+    ttnaxum.o \
+    ttnbandx.o \
+    ttnclafi.o \
+    ttncon_f.o \
+    ttncon_u.o \
+    ttndafi.o \
+    ttndata1.o \
+    ttndata2.o \
+    ttneigen.o \
+    ttnerror.o \
+    ttnfile.o \
+    ttnfilte.o \
+    ttnfname.o \
+    ttngt.o \
+    ttnkcn.o \
+    ttnlvqsw.o \
+    ttnmain.o \
+    ttnmath.o \
+    ttnmemor.o \
+    ttnother.o \
+    ttnpca.o \
+    ttnpca_2.o \
+    ttnplbp.o \
+    ttnprb.o \
+    ttnprep2.o \
+    ttnprep3.o \
+    ttnprepr.o \
+    ttnrand.o \
+    ttnreprt.o \
+    ttnreslt.o \
+    ttnsetti.o \
+    ttnthres.o \
+    ttnui.o
+
+CFLAGS = -D_CONSOLE -DMEMORY_NORMAL -O
+
+ttnans : $(OBJ)
+	gcc $(CFLAGS) -o ttnans $(OBJ)
+
+$(OBJ) : ttndef.h
+
+#tcon_glo.o :   tcon_glo.cpp
+#	gcc $(CFLAGS)  -o$@  tcon_glo.cpp
+
+tglobal.o :   tglobal.cpp
+	gcc $(CFLAGS)  -o$@  tglobal.cpp
+
+ttnans.o :   ttnans.cpp
+	gcc $(CFLAGS)  -o$@  ttnans.cpp
+
+ttnans1.o :   ttnans1.cpp
+	gcc $(CFLAGS)  -o$@  ttnans1.cpp
+
+ ttnans2.o :   ttnans2.cpp
+	gcc $(CFLAGS)  -o$@  ttnans2.cpp
+
+ ttnaxum.o :   ttnaxum.cpp
+	gcc $(CFLAGS)  -o$@  ttnaxum.cpp
+
+ ttnbandx.o :   ttnbandx.cpp
+	gcc $(CFLAGS)  -o$@  ttnbandx.cpp
+
+ ttnclafi.o :   ttnclafi.cpp
+	gcc $(CFLAGS)  -o$@  ttnclafi.cpp
+
+ ttncon_f.o :   ttncon_f.cpp
+	gcc $(CFLAGS)  -o$@  ttncon_f.cpp
+
+ ttncon_u.o :   ttncon_u.cpp
+	gcc $(CFLAGS)  -o$@  ttncon_u.cpp
+
+ ttndafi.o :   ttndafi.cpp
+	gcc $(CFLAGS)  -o$@  ttndafi.cpp
+
+ ttndata1.o :   ttndata1.cpp
+	gcc $(CFLAGS)  -o$@  ttndata1.cpp
+
+ ttndata2.o :   ttndata2.cpp
+	gcc $(CFLAGS)  -o$@  ttndata2.cpp
+
+ ttneigen.o :   ttneigen.cpp
+	gcc $(CFLAGS)  -o$@  ttneigen.cpp
+
+ ttnerror.o :   ttnerror.cpp
+	gcc $(CFLAGS)  -o$@  ttnerror.cpp
+
+ ttnfile.o :   ttnfile.cpp
+	gcc $(CFLAGS)  -o$@  ttnfile.cpp
+
+ ttnfilte.o :   ttnfilte.cpp
+	gcc $(CFLAGS)  -o$@  ttnfilte.cpp
+
+ ttnfname.o :   ttnfname.cpp
+	gcc $(CFLAGS)  -o$@  ttnfname.cpp
+
+ ttngt.o :   ttngt.cpp
+	gcc $(CFLAGS)  -o$@  ttngt.cpp
+
+ ttnkcn.o :   ttnkcn.cpp
+	gcc $(CFLAGS)  -o$@  ttnkcn.cpp
+
+ ttnlvqsw.o :   ttnlvqsw.cpp
+	gcc $(CFLAGS)  -o$@  ttnlvqsw.cpp
+
+ ttnmain.o :   ttnmain.cpp
+	gcc $(CFLAGS)  -o$@  ttnmain.cpp
+
+ ttnmath.o :   ttnmath.cpp
+	gcc $(CFLAGS)  -o$@  ttnmath.cpp
+
+ ttnmemor.o :   ttnmemor.cpp
+	gcc $(CFLAGS)  -o$@  ttnmemor.cpp
+
+ ttnother.o :   ttnother.cpp
+	gcc $(CFLAGS)  -o$@  ttnother.cpp
+
+ ttnpca.o :   ttnpca.cpp
+	gcc $(CFLAGS)  -o$@  ttnpca.cpp
+
+ ttnpca_2.o :   ttnpca_2.cpp
+	gcc $(CFLAGS)  -o$@  ttnpca_2.cpp
+
+ ttnplbp.o :   ttnplbp.cpp
+	gcc $(CFLAGS)  -o$@  ttnplbp.cpp
+
+ ttnprb.o :   ttnprb.cpp
+	gcc $(CFLAGS)  -o$@  ttnprb.cpp
+
+ ttnprep2.o :   ttnprep2.cpp
+	gcc $(CFLAGS)  -o$@  ttnprep2.cpp
+
+ ttnprep3.o :   ttnprep3.cpp
+	gcc $(CFLAGS)  -o$@  ttnprep3.cpp
+
+ ttnprepr.o :   ttnprepr.cpp
+	gcc $(CFLAGS)  -o$@  ttnprepr.cpp
+
+ ttnrand.o :   ttnrand.cpp
+	gcc $(CFLAGS)  -o$@  ttnrand.cpp
+
+ ttnreprt.o :   ttnreprt.cpp
+	gcc $(CFLAGS)  -o$@  ttnreprt.cpp
+
+ ttnreslt.o :   ttnreslt.cpp
+	gcc $(CFLAGS)  -o$@  ttnreslt.cpp
+
+ ttnsetti.o :   ttnsetti.cpp
+	gcc $(CFLAGS)  -o$@  ttnsetti.cpp
+
+ ttnthres.o :   ttnthres.cpp
+	gcc $(CFLAGS)  -o$@  ttnthres.cpp
+
+ ttnui.o :   ttnui.cpp
+	gcc $(CFLAGS)  -o$@  ttnui.cpp
+
+

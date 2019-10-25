@@ -1,0 +1,824 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\VPR.ico"
+IDR_VPRTYPE             ICON                    "res\\VPRDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_RUN_TTNANS
+    SEPARATOR
+    BUTTON      ID_RUN_TTNMENU1
+    SEPARATOR
+    BUTTON      ID_RUN_TTNMENU2
+    BUTTON      ID_RUN_TTNMENU3
+    SEPARATOR
+    BUTTON      ID_RUN_TTNMENU4
+    BUTTON      ID_RUN_TTNMENU5
+    BUTTON      ID_RUN_TTNMENU6
+    SEPARATOR
+    BUTTON      ID_RUN_TTNMENU7
+    BUTTON      ID_RUN_TTNMENU8
+    SEPARATOR
+    BUTTON      ID_MISC_CLEARSCREEN_NOW
+    SEPARATOR
+    BUTTON      ID_MISC_CLEARSCREEN_ON
+    BUTTON      ID_MISC_CLEARSCREEN_OFF
+    SEPARATOR
+    BUTTON      ID_MISC_TEXTOUTPUTON
+    BUTTON      ID_MISC_TEXTOUTPUTOFF
+    SEPARATOR
+    BUTTON      ID_MACRO
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "N&ew Session",                ID_RUN_TTNANS_REC
+        MENUITEM SEPARATOR
+        MENUITEM "&New Text\tCtrl+N",           ID_FILE_NEW
+        MENUITEM "&Open Text\tCtrl+O",          ID_FILE_OPEN
+        MENUITEM "&Save Text\tCtrl+S",          ID_FILE_SAVE
+        MENUITEM "Save Text &As...",            ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Run"
+    BEGIN
+        MENUITEM "&Main Module",                ID_RUN_TTNANS
+        MENUITEM SEPARATOR
+        MENUITEM "Create a *.PRB &File",        ID_RUN_TTNMENU1
+        MENUITEM "&Process a *.PRB File",       ID_RUN_TTNMENU2
+        MENUITEM "&Batch Processing",           ID_RUN_TTNMENU3
+        MENUITEM "Con&ventional Algorithms",    ID_RUN_TTNMENU4
+        MENUITEM "&Graph Theoretical Algo.",    ID_RUN_TTNMENU5
+        MENUITEM "&Custom Algorithms",          ID_RUN_TTNMENU6
+        MENUITEM "&Results Evaluation",         ID_RUN_TTNMENU7
+        MENUITEM "&Misc. Utilities",            ID_RUN_TTNMENU8
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Misc"
+    BEGIN
+        MENUITEM "&All Options",                ID_MISC_OPTIONS
+        MENUITEM SEPARATOR
+        POPUP "Auto &CLS"
+        BEGIN
+            MENUITEM "&On",                         ID_MISC_CLEARSCREEN_ON
+            MENUITEM "O&ff",                        ID_MISC_CLEARSCREEN_OFF
+        END
+        MENUITEM "&Modal Mode",                 ID_MISC_MODALDLGS
+        MENUITEM "&Data Set Window",            ID_MISC_SETSINWIN
+        MENUITEM "&Hint Window",                ID_MISC_HINT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About VPR...",               ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT
+    VK_F1,          ID_HELP,                VIRTKEY 
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  0, 0, 312, 185
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About VPR"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,17,22,20,20
+    LTEXT           "VPR and  TTNANS are copyright (c) 1995 (+) by Vasilios N. Nikolaidis.\nVPR is a MS-Windows 95+ port of (and front-end to) the TTNANS engine.\nTTNANS code also contains ports to MS-DOS,Win16, Amiga, and  Unix.",IDC_STATIC,47,33,249,25,SS_NOPREFIX
+    DEFPUSHBUTTON   "OK",IDOK,111,163,88,14,WS_GROUP
+    GROUPBOX        "VPR",IDC_STATIC,7,3,298,157
+    LTEXT           "VPR Version 1.0. By V.N.Nikolaidis.",IDC_STATIC,48,15,241,11
+    CTEXT           "- Prof. T.P.Philippidis (MEAD, University of Patras, Greece).\n\n- Dr. A.A.Anastasopoulos (Envirocoustics, Greece).\n\n- Prof. S.A.Paipetis (MEAD, University of Patras, Greece).",IDC_STATIC,60,102,191,42,SS_NOPREFIX
+    CTEXT           "Please see additional copyright notice in : VPR Tool / Properties / Copyright.",IDC_STATIC,31,67,249,12,SS_NOPREFIX
+    GROUPBOX        "Thanks go to :",IDC_STATIC,28,88,256,62,BS_CENTER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Hope Amiga Rulez Again!"
+            VALUE "CompanyName", "Media Shack (TiTaNiC)"
+            VALUE "FileDescription", "VPR MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "VPR"
+            VALUE "LegalCopyright", "Copyright (C) 1997"
+            VALUE "LegalTrademarks", "Vasilios N. Nikolaidis"
+            VALUE "OriginalFilename", "VPR.EXE"
+            VALUE "ProductName", "VPR Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 305
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 177
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "VPR\n\nVPR\n\n\nVPR.Document\nVPR Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "VPR"
+    AFX_IDS_IDLEMESSAGE     "For Help, press F1"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new text document\nNew Text"
+    ID_FILE_OPEN            "Open an existing text document\nOpen Text"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active (displayed) text\nSave Text"
+    ID_FILE_SAVE_AS         "Save the active (displayed) text with a new name\nSave Text As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+    ID_HELP_INDEX           "Opens Help\nHelp Topics"
+    ID_HELP_FINDER          "List Help topics\nHelp Topics"
+    ID_HELP_USING           "Display instructions about how to use help\nHelp"
+    ID_CONTEXT_HELP         "Display help for clicked on buttons, menus and windows\nHelp"
+    ID_HELP                 "Display help for current task or command\nHelp"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_MISC_CLEARSCREEN_ON  "Sets Auto CLS on.\nAuto CLS On"
+    ID_MISC_CLEARSCREEN_OFF "Sets Auto CLS off. (Default)\nAuto CLS Off"
+    ID_MISC_SELECTFONT      "Select a font for the display."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_MISC_HINT            "Tongle Hint Window."
+    ID_RUN_TTNMENU1         "Creates a problem (case) description file (*.PRB).\nCreate PRB file"
+    ID_RUN_TTNMENU2         "Starts Problem Processing using ANS with default settings.\nProcess Problem"
+    ID_RUN_TTNMENU3         "Batch and Experimentation Problem Processing using ANS.\nBatch and ANS Experimentation"
+    ID_RUN_TTNMENU4         "Runs Conventional Algorithms.\nConventional Methods"
+    ID_RUN_TTNMENU5         "Graph Theoretical Clustering.\nGT-based Methods"
+    ID_RUN_TTNMENU6         "Custom Algorithms.\nCustom Algorithms"
+    ID_MISC_TEXTOUTPUTON    "Enables on-screen text output. (Default)\nText On"
+    ID_MISC_TEXTOUTPUTOFF   "Disables on-screen text output.\nText Off"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_MISC_PROPERTIES      "Tongle Properties Window."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_MISC_CLEARSCREEN_NOW "Clears the text display\nClear Screen now!"
+    ID_RUN_TTNMENU7         "Results Evaluation and Visualization Utilities.\nResults Evaluation"
+    ID_MISC_MODALDLGS       "Sets dialogs/message boxes in modal (exclusive) mode (when possible)."
+    ID_RUN_TTNANS           "Enters main module with all options.\nMain"
+    ID_MISC_SETSINWIN       "When selected, data sets are displayed in separate window."
+    ID_RUN_TTNANS_REC       "Run a TTNANS session while recording it to file\nNew TTNANS Session"
+    ID_MISC_OPTIONS         "All options\nAll options "
+    ID_MISC_OLDFILEREQ      "Uses older (windows 3.1) style file requesters."
+    ID_RUN_TTNMENU8         "Misc. Utilities.\nMisc. Utilities"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_MACRO                "Macro Controler\nMacro Controler"
+    ID_MISC_SETHCDELAY      "Set Hint-Box Delayed Clear Time."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Greek resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ELL)
+#ifdef _WIN32
+LANGUAGE LANG_GREEK, SUBLANG_DEFAULT
+#pragma code_page(1253)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_QMARK               ICON                    "res\\qmark.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_AUTHOR              BITMAP                  "res\\Untitled.BMP"
+IDB_REC                 BITMAP                  "res\\bitmap1.bmp"
+IDB_PLAY                BITMAP                  "res\\rec1.bmp"
+IDB_STOP                BITMAP                  "res\\rec2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_HINTMENU MENU 
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "Set &font",                   ID_MISC_SELECTFONT
+        MENUITEM "Word Wrap",                   ID_MISC_WWRAP
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SD_REQSTRING DIALOG  0, 0, 199, 62
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "VPR Requests:"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,75,42,50,14
+    CTEXT           "",IDC_STATIC_TITLE,13,7,173,12,SS_SUNKEN
+    EDITTEXT        IDC_EDIT1,13,25,173,12,ES_CENTER | ES_MULTILINE
+END
+
+IDD_SD_MENU DIALOG  0, 0, 295, 210
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "VPR Tool  (Menu)"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,225,132,50,19
+    PUSHBUTTON      "Cancel",IDCANCEL,225,157,50,14
+    LISTBOX         IDC_LIST1,13,17,269,93,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Please select one of the items listed:",IDC_STATIC,7,7,281,109
+    LTEXT           "",IDC_STATIC_TITLE,15,123,170,11,SS_SUNKEN
+    GROUPBOX        "Windows:",IDC_STATIC,7,171,119,32
+    PUSHBUTTON      "Hint",ID_MISC_HINT,71,183,48,16,BS_NOTIFY | NOT WS_TABSTOP
+    PUSHBUTTON      "Properties",ID_MISC_PROPERTIES,16,183,47,16,BS_NOTIFY | NOT WS_TABSTOP
+    CONTROL         "Record Session",IDC_CHECK_RSESSION,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,217,189,66,10
+    GROUPBOX        "",IDC_STATIC,207,182,81,21
+END
+
+IDD_SD_SPLASH DIALOG  0, 0, 203, 72
+STYLE DS_ABSALIGN | DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 9, "Times New Roman"
+BEGIN
+    LTEXT           "Welcome to VPR (TTNANS)",IDC_STATIC,56,11,91,8
+    GROUPBOX        "",IDC_STATIC,7,2,189,62
+    LTEXT           "for Windows 95 +.",IDC_STATIC,74,20,55,8
+    CTEXT           "Univercity of Patras\nMechanical and Aeronautics Engineering Department",IDC_STATIC,15,33,174,19,SS_SUNKEN
+    RTEXT           "Ver 1.0 Rev:",IDC_STATIC,123,54,41,8,WS_DISABLED
+    LTEXT           "",IDC_STATIC_REV,165,54,23,8,WS_DISABLED
+    ICON            IDR_MAINFRAME,IDC_STATIC,15,12,18,17
+END
+
+IDD_SD_PROGRESS DIALOG  0, 0, 320, 46
+STYLE DS_ABSALIGN | DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Processing...."
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,14,20,245,14
+    LTEXT           "0%",IDC_STATIC,14,9,10,8
+    LTEXT           "100%",IDC_STATIC,242,9,18,8
+    CTEXT           "Processing",IDC_STATIC1,40,8,193,9
+    PUSHBUTTON      "&Pause",ID_MISC_PAUSE,269,6,44,18
+    PUSHBUTTON      "&Abort",ID_MISC_ABORT,269,26,44,13
+    GROUPBOX        "",IDC_STATIC,7,1,258,38
+END
+
+IDD_SP_COPYRIGHT DIALOG  0, 0, 221, 130
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Copyright"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "This program was developed by Vasilios N. Nikolaidis.\ne-mail : nikola@mech.upatras.gr\nTel : +30 61 991995 , +30 61 994813, +30 61 997235",IDC_STATIC,8,30,204,26
+    CTEXT           "- VPR -",IDC_STATIC,99,19,24,8
+    GROUPBOX        "Copyright Notice",IDC_STATIC,7,69,205,45
+    CTEXT           "VPR and  xTTNANS are\nCopyright (C) Vasilios N. Nikolaidis.\nAuthor's permition is required to distribute this program.",IDC_STATIC,18,81,186,25
+END
+
+IDD_SP_PAGE_1 DIALOG  0, 0, 219, 154
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Problem"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST3,7,11,203,136,LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | LBS_NOSEL | WS_TABSTOP
+    LTEXT           "Problem Properties (so far):",IDC_STATIC,7,1,85,8
+END
+
+IDD_SD_HINT DIALOGEX 0, 0, 219, 71
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_3DLOOK | DS_CONTROL | WS_VISIBLE | WS_CLIPCHILDREN | WS_CAPTION | WS_THICKFRAME
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Hint Pad (VPR)"
+FONT 9, "Fixedsys", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST,2,6,215,50,LBS_NOINTEGRALHEIGHT | LBS_NOSEL | WS_DISABLED,WS_EX_STATICEDGE,HIDC_LIST
+END
+
+IDD_SD_DATASET DIALOG  0, 0, 457, 290
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&OK",IDOK,294,262,156,21
+    CONTROL         "",IDC_MSFLEXGRID1,
+                    "{6262D3A0-531B-11CF-91F6-C2863C385E30}",WS_TABSTOP,7,7,443,229
+    DEFPUSHBUTTON   "&Scale",ID_DATASET_SCALE,127,264,49,19
+    GROUPBOX        "Integrity Check",IDC_STATIC,9,260,116,23
+    CONTROL         "Progress1",IDC_DATASET_PROGRESS,"msctls_progress32",WS_BORDER,13,270,109,8
+    DEFPUSHBUTTON   "Sav&e",ID_DATASET_SAVE,180,264,49,19
+    LTEXT           "Rows:",IDC_STATIC,303,242,21,8
+    EDITTEXT        IDC_EDIT_ROWS,327,240,45,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Cols:",IDC_STATIC,384,242,16,8
+    EDITTEXT        IDC_EDIT_COLS,405,240,45,12,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_SD_OPTIONS DIALOGEX 0, 0, 325, 156
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Options"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,139,135,50,14
+    GROUPBOX        "Main Output Window",IDC_STATIC,7,7,152,123
+    GROUPBOX        "Hint Pad Window",IDC_STATIC,167,7,151,94
+    PUSHBUTTON      "Auto Clear-Screen Off",ID_MISC_CLEARSCREEN_OFF,35,30,93,12
+    PUSHBUTTON      "Auto Clear-Screen On",ID_MISC_CLEARSCREEN_ON,35,43,93,12
+    PUSHBUTTON      "Tongle Hint Window",ID_MISC_HINT,200,30,93,13
+    PUSHBUTTON      "Tongle Modal Dialogs",ID_MISC_MODALDLGS,35,66,93,12
+    PUSHBUTTON      "Select Font",ID_MISC_SELECTFONT,200,43,93,13
+    PUSHBUTTON      "Disable Text Output",ID_MISC_TEXTOUTPUTOFF,35,89,93,12
+    PUSHBUTTON      "Enable Text Output",ID_MISC_TEXTOUTPUTON,35,102,93,12
+    PUSHBUTTON      "Word Wrap",ID_MISC_WWRAP,200,56,93,13
+    GROUPBOX        "Other",IDC_STATIC,167,102,151,28
+    PUSHBUTTON      "Toggle old-style File Req.",ID_MISC_OLDFILEREQ,200,112,93,12
+    PUSHBUTTON      "Set Clear Delay",ID_MISC_SETHCDELAY,200,69,93,13
+END
+
+IDD_SD_MACRO DIALOG  0, 0, 170, 61
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "VPR Macro Control"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,113,40,50,14
+    PUSHBUTTON      "Record",IDC_BUTTON_REC,7,7,50,14,BS_BITMAP
+    PUSHBUTTON      "Play",IDC_BUTTON_PLAY,60,7,50,14,BS_BITMAP
+    PUSHBUTTON      "STOP",IDC_BUTTON_STOP,113,7,50,14,BS_BITMAP
+    LTEXT           "Record",IDC_STATIC,21,22,24,8
+    LTEXT           "Play",IDC_STATIC,77,22,14,8
+    LTEXT           "Stop",IDC_STATIC,129,23,16,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_SD_REQSTRING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 192
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+        HORZGUIDE, 19
+    END
+
+    IDD_SD_MENU, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 288
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_SD_SPLASH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 196
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 69
+    END
+
+    IDD_SD_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 39
+    END
+
+    IDD_SP_COPYRIGHT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 212
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 123
+    END
+
+    IDD_SP_PAGE_1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_SD_HINT, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 217
+        BOTTOMMARGIN, 68
+    END
+
+    IDD_SD_DATASET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 450
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 283
+    END
+
+    IDD_SD_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 318
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_SD_MACRO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 54
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\VPR.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR                  "res\\cursor1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_SD_DATASET DLGINIT
+BEGIN
+    IDC_MSFLEXGRID1, 0x37a, 282, 0
+0x0024, 0x0000, 0x0037, 0x0032, 0x0045, 0x0036, 0x0037, 0x0031, 0x0032, 
+0x0030, 0x002d, 0x0035, 0x0039, 0x0035, 0x0039, 0x002d, 0x0031, 0x0031, 
+0x0063, 0x0066, 0x002d, 0x0039, 0x0031, 0x0046, 0x0036, 0x002d, 0x0043, 
+0x0032, 0x0038, 0x0036, 0x0033, 0x0043, 0x0033, 0x0038, 0x0035, 0x0045, 
+0x0033, 0x0030, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 0x004c, 
+0x0000, 0x0000, 0x4321, 0x1234, 0x0008, 0x0000, 0x44bb, 0x0000, 0x2673, 
+0x0000, 0x6f42, 0x506f, 0x0005, 0x0000, 0x0080, 0x0000, 0x0017, 0x0000, 
+0x000b, 0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x012c, 0x0000, 0x0005, 
+0x8000, 0x0008, 0x8000, 0x000f, 0x8000, 0x0012, 0x8000, 0x000d, 0x8000, 
+0x000e, 0x8000, 0x8080, 0x0080, 0xc0c0, 0x00c0, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0001, 0x0000, 0x0001, 0x0002, 
+0x0003, 0x0000, 0x0000, 0x0003, 0x0000, 0x0001, 0x0001, 0x0002, 0x0001, 
+0x0004, 0x0000, 0x0006, 0x0000, 0x0000, 0x0043, 0x0000, 0xa101, 0x0000, 
+0x0190, 0x4244, 0x0001, 0x4d0d, 0x2053, 0x6153, 0x736e, 0x5320, 0x7265, 
+0x6669, 0x746c, 0x0000, 0x0000, 0x0000, 0xa000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    ID_MISC_SELECTFONT      "Select Hint Box Font - Note: Untested Option"
+END
+
+#endif    // Greek resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\VPR.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

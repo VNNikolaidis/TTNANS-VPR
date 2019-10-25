@@ -1,0 +1,699 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VPR - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Billy\LOCALS~1\Temp\RSP50.bat" with contents
+[
+@echo off
+call ".\makehelp.bat"
+]
+Creating command line "C:\DOCUME~1\Billy\LOCALS~1\Temp\RSP50.bat"
+Creating command line "rc.exe /l 0x408 /fo"Release/VPR.res" /d "NDEBUG" "E:\USR\SRC\CPP\Vpr\VPR.rc"" 
+Making help file...
+Creating temporary file "C:\DOCUME~1\Billy\LOCALS~1\Temp\RSP51.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MY_RANDOM_" /D "_AXUM_COMPATIBLE_" /FR"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\USR\SRC\CPP\Vpr\font.cpp"
+"E:\USR\SRC\CPP\Vpr\MainFrm.cpp"
+"E:\USR\SRC\CPP\Vpr\msflexgrid.cpp"
+"E:\USR\SRC\CPP\Vpr\picture.cpp"
+"E:\USR\SRC\CPP\Vpr\rowcursor.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\ta_conec.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\ta_iface.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\ta_pe.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Tcon_glo.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Tglobal.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnans.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnans1.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnans2.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnaxum.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnbandx.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnclafi.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttncon_f.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttncon_u.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\ttncust2.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\ttncustm.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttndafi.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttndata1.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttndata2.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttneigen.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnerror.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnfile.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnfilte.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnfname.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnkcn.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnlvqsw.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnmain.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnmath.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnmemor.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnother.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnplbp.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnprb.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnprep2.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnprep3.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnprepr.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnrand.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnreprt.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnreslt.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnsetti.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnthres.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnui.cpp"
+"E:\USR\SRC\CPP\Vpr\VPR.cpp"
+"E:\USR\SRC\CPP\Vpr\VPRDoc.cpp"
+"E:\USR\SRC\CPP\Vpr\VPRView.cpp"
+"E:\USR\SRC\CPP\Vpr\VSDdataset.cpp"
+"E:\USR\SRC\CPP\Vpr\VSDfname.cpp"
+"E:\USR\SRC\CPP\Vpr\VSDhint.cpp"
+"E:\USR\SRC\CPP\Vpr\VSDmacro.cpp"
+"E:\USR\SRC\CPP\Vpr\VSDmenu.cpp"
+"E:\USR\SRC\CPP\Vpr\VSDoptions.cpp"
+"E:\USR\SRC\CPP\Vpr\VSDprogress.cpp"
+"E:\USR\SRC\CPP\Vpr\VSDprop.cpp"
+"E:\USR\SRC\CPP\Vpr\VSDrqstr.cpp"
+"E:\USR\SRC\CPP\Vpr\VSDsplash.cpp"
+"E:\USR\SRC\CPP\Vpr\VSPcright.cpp"
+"E:\USR\SRC\CPP\Vpr\VSPpage1.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Billy\LOCALS~1\Temp\RSP51.tmp" 
+Creating temporary file "C:\DOCUME~1\Billy\LOCALS~1\Temp\RSP52.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MY_RANDOM_" /D "_AXUM_COMPATIBLE_" /FR"Release/" /Fp"Release/Vpr.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\USR\SRC\CPP\Vpr\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Billy\LOCALS~1\Temp\RSP52.tmp" 
+Creating temporary file "C:\DOCUME~1\Billy\LOCALS~1\Temp\RSP53.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Vpr.pdb" /machine:I386 /out:"Release/Vpr.exe" 
+.\Release\font.obj
+.\Release\MainFrm.obj
+.\Release\msflexgrid.obj
+.\Release\picture.obj
+.\Release\rowcursor.obj
+.\Release\StdAfx.obj
+.\Release\Ta_conec.obj
+.\Release\ta_iface.obj
+.\Release\Ta_pe.obj
+.\Release\Tcon_glo.obj
+.\Release\Tglobal.obj
+.\Release\Ttnans.obj
+.\Release\Ttnans1.obj
+.\Release\Ttnans2.obj
+.\Release\Ttnaxum.obj
+.\Release\Ttnbandx.obj
+.\Release\Ttnclafi.obj
+.\Release\Ttncon_f.obj
+.\Release\Ttncon_u.obj
+.\Release\ttncust2.obj
+.\Release\ttncustm.obj
+.\Release\Ttndafi.obj
+.\Release\Ttndata1.obj
+.\Release\Ttndata2.obj
+.\Release\Ttneigen.obj
+.\Release\Ttnerror.obj
+.\Release\Ttnfile.obj
+.\Release\Ttnfilte.obj
+.\Release\Ttnfname.obj
+.\Release\Ttngt.obj
+.\Release\ttnimage.obj
+.\Release\Ttnkcn.obj
+.\Release\Ttnlvqsw.obj
+.\Release\Ttnmain.obj
+.\Release\Ttnmath.obj
+.\Release\Ttnmemor.obj
+.\Release\Ttnother.obj
+.\Release\Ttnpca.obj
+.\Release\Ttnpca_2.obj
+.\Release\Ttnplbp.obj
+.\Release\Ttnprb.obj
+.\Release\Ttnprep2.obj
+.\Release\Ttnprep3.obj
+.\Release\Ttnprepr.obj
+.\Release\Ttnrand.obj
+.\Release\Ttnreprt.obj
+.\Release\Ttnreslt.obj
+.\Release\Ttnsetti.obj
+.\Release\Ttnthres.obj
+.\Release\Ttnui.obj
+.\Release\VPR.obj
+.\Release\VPRDoc.obj
+.\Release\VPRView.obj
+.\Release\VSDdataset.obj
+.\Release\VSDfname.obj
+.\Release\VSDhint.obj
+.\Release\VSDmacro.obj
+.\Release\VSDmenu.obj
+.\Release\VSDoptions.obj
+.\Release\VSDprogress.obj
+.\Release\VSDprop.obj
+.\Release\VSDrqstr.obj
+.\Release\VSDsplash.obj
+.\Release\VSPcright.obj
+.\Release\VSPpage1.obj
+.\Release\VPR.res
+]
+Creating command line "link.exe @C:\DOCUME~1\Billy\LOCALS~1\Temp\RSP53.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+font.cpp
+MainFrm.cpp
+msflexgrid.cpp
+picture.cpp
+rowcursor.cpp
+ta_conec.cpp
+ta_iface.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\ta_iface.cpp(62) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ta_iface.cpp(66) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ta_iface.cpp(76) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+ta_pe.cpp
+Tcon_glo.cpp
+Tglobal.cpp
+Ttnans.cpp
+Ttnans1.cpp
+Ttnans2.cpp
+Ttnaxum.cpp
+Ttnbandx.cpp
+Ttnclafi.cpp
+Ttncon_f.cpp
+Ttncon_u.cpp
+ttncust2.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\ttncust2.cpp(245) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttncust2.cpp(246) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttncust2.cpp(275) : warning C4018: '==' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttncust2.cpp(429) : warning C4018: '!=' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttncust2.cpp(448) : warning C4018: '>=' : signed/unsigned mismatch
+ttncustm.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\ttncustm.cpp(895) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttncustm.cpp(896) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttncustm.cpp(1070) : warning C4018: '!=' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttncustm.cpp(1089) : warning C4018: '>=' : signed/unsigned mismatch
+Generating Code...
+Compiling...
+Ttndafi.cpp
+Ttndata1.cpp
+Ttndata2.cpp
+Ttneigen.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttneigen.cpp(66) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttneigen.cpp(74) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttneigen.cpp(83) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttneigen.cpp(95) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttneigen.cpp(96) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttneigen.cpp(99) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttneigen.cpp(101) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttneigen.cpp(264) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttneigen.cpp(268) : warning C4018: '<' : signed/unsigned mismatch
+Ttnerror.cpp
+Ttnfile.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnfile.cpp(334) : warning C4551: function call missing argument list
+Ttnfilte.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnfilte.cpp(196) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnfilte.cpp(199) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnfilte.cpp(276) : warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnfilte.cpp(352) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnfilte.cpp(355) : warning C4018: '<' : signed/unsigned mismatch
+Ttnfname.cpp
+Ttngt.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(77) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(140) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(147) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(172) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(174) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(253) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(262) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(342) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(345) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(397) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(421) : warning C4018: '==' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(431) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(563) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(567) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(571) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(628) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(635) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(647) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(665) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(670) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(680) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(726) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(749) : warning C4018: '==' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(759) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(829) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(841) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(892) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(909) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(914) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(924) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(977) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(999) : warning C4018: '==' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1009) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1096) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1112) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1116) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1169) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1181) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1198) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1203) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1213) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1309) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1398) : warning C4018: '!=' : signed/unsigned mismatch
+ttnimage.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(101) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(102) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(104) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(105) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(106) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(116) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(118) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(119) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(121) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(122) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(142) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(143) : warning C4018: '<' : signed/unsigned mismatch
+Ttnkcn.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnkcn.cpp(88) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+Ttnlvqsw.cpp
+Ttnmain.cpp
+Ttnmath.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnmath.cpp(209) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnmath.cpp(212) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnmath.cpp(245) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnmath.cpp(247) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Ttnmemor.cpp
+Ttnother.cpp
+Ttnpca.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca.cpp(117) : warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+Ttnpca_2.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(231) : warning C4244: '/=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(255) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(291) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(309) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(508) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(519) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(589) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(595) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(596) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(597) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(607) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(609) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(614) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(616) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(619) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Ttnplbp.cpp
+Ttnprb.cpp
+Generating Code...
+Compiling...
+Ttnprep2.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnprep2.cpp(953) : warning C4018: '>=' : signed/unsigned mismatch
+Ttnprep3.cpp
+Ttnprepr.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnprepr.cpp(303) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnprepr.cpp(304) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnprepr.cpp(305) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnprepr.cpp(306) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnprepr.cpp(307) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Ttnrand.cpp
+Ttnreprt.cpp
+Ttnreslt.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnreslt.cpp(759) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnreslt.cpp(766) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnreslt.cpp(799) : warning C4018: '<' : signed/unsigned mismatch
+Ttnsetti.cpp
+Ttnthres.cpp
+Ttnui.cpp
+VPR.cpp
+VPRDoc.cpp
+VPRView.cpp
+VSDdataset.cpp
+VSDfname.cpp
+VSDhint.cpp
+VSDmacro.cpp
+VSDmenu.cpp
+VSDoptions.cpp
+VSDprogress.cpp
+VSDprop.cpp
+Generating Code...
+Compiling...
+VSDrqstr.cpp
+VSDsplash.cpp
+VSPcright.cpp
+VSPpage1.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\Billy\LOCALS~1\Temp\RSP55.tmp" with contents
+[
+/nologo /o"Release/Vpr.bsc" 
+.\Release\StdAfx.sbr
+.\Release\font.sbr
+.\Release\MainFrm.sbr
+.\Release\msflexgrid.sbr
+.\Release\picture.sbr
+.\Release\rowcursor.sbr
+.\Release\Ta_conec.sbr
+.\Release\ta_iface.sbr
+.\Release\Ta_pe.sbr
+.\Release\Tcon_glo.sbr
+.\Release\Tglobal.sbr
+.\Release\Ttnans.sbr
+.\Release\Ttnans1.sbr
+.\Release\Ttnans2.sbr
+.\Release\Ttnaxum.sbr
+.\Release\Ttnbandx.sbr
+.\Release\Ttnclafi.sbr
+.\Release\Ttncon_f.sbr
+.\Release\Ttncon_u.sbr
+.\Release\ttncust2.sbr
+.\Release\ttncustm.sbr
+.\Release\Ttndafi.sbr
+.\Release\Ttndata1.sbr
+.\Release\Ttndata2.sbr
+.\Release\Ttneigen.sbr
+.\Release\Ttnerror.sbr
+.\Release\Ttnfile.sbr
+.\Release\Ttnfilte.sbr
+.\Release\Ttnfname.sbr
+.\Release\Ttngt.sbr
+.\Release\ttnimage.sbr
+.\Release\Ttnkcn.sbr
+.\Release\Ttnlvqsw.sbr
+.\Release\Ttnmain.sbr
+.\Release\Ttnmath.sbr
+.\Release\Ttnmemor.sbr
+.\Release\Ttnother.sbr
+.\Release\Ttnpca.sbr
+.\Release\Ttnpca_2.sbr
+.\Release\Ttnplbp.sbr
+.\Release\Ttnprb.sbr
+.\Release\Ttnprep2.sbr
+.\Release\Ttnprep3.sbr
+.\Release\Ttnprepr.sbr
+.\Release\Ttnrand.sbr
+.\Release\Ttnreprt.sbr
+.\Release\Ttnreslt.sbr
+.\Release\Ttnsetti.sbr
+.\Release\Ttnthres.sbr
+.\Release\Ttnui.sbr
+.\Release\VPR.sbr
+.\Release\VPRDoc.sbr
+.\Release\VPRView.sbr
+.\Release\VSDdataset.sbr
+.\Release\VSDfname.sbr
+.\Release\VSDhint.sbr
+.\Release\VSDmacro.sbr
+.\Release\VSDmenu.sbr
+.\Release\VSDoptions.sbr
+.\Release\VSDprogress.sbr
+.\Release\VSDprop.sbr
+.\Release\VSDrqstr.sbr
+.\Release\VSDsplash.sbr
+.\Release\VSPcright.sbr
+.\Release\VSPpage1.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\Billy\LOCALS~1\Temp\RSP55.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Vpr.exe - 0 error(s), 112 warning(s)
+<h3>
+--------------------Configuration: ttnans_console_app - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Billy\LOCALS~1\Temp\RSP56.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D "_MY_MIN_AND_MAX_" /D "_MY_RANDOM_" /Fp"Release/Ttnans_console_app.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\USR\SRC\CPP\Vpr\Ttnans\ta_conec.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\ta_iface.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\ta_pe.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Tcon_glo.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Tglobal.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnans.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnans1.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnans2.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnaxum.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnbandx.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnclafi.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttncon_f.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttncon_u.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\ttncust2.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\ttncustm.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttndafi.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttndata1.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttndata2.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttneigen.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnerror.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnfile.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnfilte.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnfname.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnkcn.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnlvqsw.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnmain.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnmath.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnmemor.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnother.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnplbp.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnprb.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnprep2.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnprep3.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnprepr.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnrand.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnreprt.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnreslt.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnsetti.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnthres.cpp"
+"E:\USR\SRC\CPP\Vpr\Ttnans\Ttnui.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Billy\LOCALS~1\Temp\RSP56.tmp" 
+Creating temporary file "C:\DOCUME~1\Billy\LOCALS~1\Temp\RSP57.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Ttnans_console_app.pdb" /machine:I386 /out:"Release/Ttnans_console_app.exe" 
+.\Release\ta_conec.obj
+.\Release\ta_iface.obj
+.\Release\ta_pe.obj
+.\Release\Tcon_glo.obj
+.\Release\Tglobal.obj
+.\Release\Ttnans.obj
+.\Release\Ttnans1.obj
+.\Release\Ttnans2.obj
+.\Release\Ttnaxum.obj
+.\Release\Ttnbandx.obj
+.\Release\Ttnclafi.obj
+.\Release\Ttncon_f.obj
+.\Release\Ttncon_u.obj
+.\Release\ttncust2.obj
+.\Release\ttncustm.obj
+.\Release\Ttndafi.obj
+.\Release\Ttndata1.obj
+.\Release\Ttndata2.obj
+.\Release\Ttneigen.obj
+.\Release\Ttnerror.obj
+.\Release\Ttnfile.obj
+.\Release\Ttnfilte.obj
+.\Release\Ttnfname.obj
+.\Release\Ttngt.obj
+.\Release\ttnimage.obj
+.\Release\Ttnkcn.obj
+.\Release\Ttnlvqsw.obj
+.\Release\Ttnmain.obj
+.\Release\Ttnmath.obj
+.\Release\Ttnmemor.obj
+.\Release\Ttnother.obj
+.\Release\Ttnpca.obj
+.\Release\Ttnpca_2.obj
+.\Release\Ttnplbp.obj
+.\Release\Ttnprb.obj
+.\Release\Ttnprep2.obj
+.\Release\Ttnprep3.obj
+.\Release\Ttnprepr.obj
+.\Release\Ttnrand.obj
+.\Release\Ttnreprt.obj
+.\Release\Ttnreslt.obj
+.\Release\Ttnsetti.obj
+.\Release\Ttnthres.obj
+.\Release\Ttnui.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Billy\LOCALS~1\Temp\RSP57.tmp"
+<h3>Output Window</h3>
+Compiling...
+ta_conec.cpp
+ta_iface.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\ta_iface.cpp(62) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ta_iface.cpp(66) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ta_iface.cpp(76) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+ta_pe.cpp
+Tcon_glo.cpp
+Tglobal.cpp
+Ttnans.cpp
+Ttnans1.cpp
+Ttnans2.cpp
+Ttnaxum.cpp
+Ttnbandx.cpp
+Ttnclafi.cpp
+Ttncon_f.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttncon_f.cpp(26) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttncon_f.cpp(168) : warning C4018: '<=' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttncon_f.cpp(182) : warning C4018: '<' : signed/unsigned mismatch
+Ttncon_u.cpp
+ttncust2.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\ttncust2.cpp(245) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttncust2.cpp(246) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttncust2.cpp(275) : warning C4018: '==' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttncust2.cpp(429) : warning C4018: '!=' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttncust2.cpp(448) : warning C4018: '>=' : signed/unsigned mismatch
+ttncustm.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\ttncustm.cpp(895) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttncustm.cpp(896) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttncustm.cpp(1070) : warning C4018: '!=' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttncustm.cpp(1089) : warning C4018: '>=' : signed/unsigned mismatch
+Ttndafi.cpp
+Ttndata1.cpp
+Ttndata2.cpp
+Ttneigen.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttneigen.cpp(66) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttneigen.cpp(74) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttneigen.cpp(83) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttneigen.cpp(95) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttneigen.cpp(96) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttneigen.cpp(99) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttneigen.cpp(101) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttneigen.cpp(264) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttneigen.cpp(268) : warning C4018: '<' : signed/unsigned mismatch
+Ttnerror.cpp
+Ttnfile.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnfile.cpp(334) : warning C4551: function call missing argument list
+Ttnfilte.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnfilte.cpp(196) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnfilte.cpp(199) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnfilte.cpp(276) : warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnfilte.cpp(352) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnfilte.cpp(355) : warning C4018: '<' : signed/unsigned mismatch
+Ttnfname.cpp
+Ttngt.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(77) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(140) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(147) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(172) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(174) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(253) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(262) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(342) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(345) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(397) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(421) : warning C4018: '==' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(431) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(563) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(567) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(571) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(628) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(635) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(647) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(665) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(670) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(680) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(726) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(749) : warning C4018: '==' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(759) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(829) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(841) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(892) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(909) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(914) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(924) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(977) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(999) : warning C4018: '==' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1009) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1096) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1112) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1116) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1169) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1181) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1198) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1203) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1213) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1309) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttngt.cpp(1398) : warning C4018: '!=' : signed/unsigned mismatch
+ttnimage.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(101) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(102) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(104) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(105) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(106) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(116) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(118) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(119) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(121) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(122) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(142) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\ttnimage.cpp(143) : warning C4018: '<' : signed/unsigned mismatch
+Ttnkcn.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnkcn.cpp(88) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+Ttnlvqsw.cpp
+Ttnmain.cpp
+Ttnmath.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnmath.cpp(209) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnmath.cpp(212) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnmath.cpp(245) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnmath.cpp(247) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Ttnmemor.cpp
+Ttnother.cpp
+Ttnpca.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca.cpp(117) : warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+Ttnpca_2.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(231) : warning C4244: '/=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(255) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(291) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(309) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(508) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(519) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(589) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(595) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(596) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(597) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(607) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(609) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(614) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(616) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnpca_2.cpp(619) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Ttnplbp.cpp
+Ttnprb.cpp
+Ttnprep2.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnprep2.cpp(953) : warning C4018: '>=' : signed/unsigned mismatch
+Ttnprep3.cpp
+Ttnprepr.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnprepr.cpp(303) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnprepr.cpp(304) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnprepr.cpp(305) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnprepr.cpp(306) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnprepr.cpp(307) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Ttnrand.cpp
+Ttnreprt.cpp
+Ttnreslt.cpp
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnreslt.cpp(759) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnreslt.cpp(766) : warning C4018: '<' : signed/unsigned mismatch
+E:\USR\SRC\CPP\Vpr\Ttnans\Ttnreslt.cpp(799) : warning C4018: '<' : signed/unsigned mismatch
+Ttnsetti.cpp
+Ttnthres.cpp
+Ttnui.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Ttnans_console_app.exe - 0 error(s), 115 warning(s)
+</pre>
+</body>
+</html>
