@@ -1,8 +1,9 @@
 # TTNANS-VPR
 Pattern Recognition and Data Analysis Software that was created around 1995 and later.
 
-VPR has an MS-Windows shell, while TTNANS was the text-only (console) version (with versions for MSDOS and Amiga Workbench)
-Later, some ideas evolved and parts were incorporated Noesis Pattern Recognition Software. 
+VPR has an MS-Windows shell, while TTNANS was the text-only (console) version (with versions for MSDOS and Amiga Workbench).
+
+Later, some ideas evolved and parts were incorporated to Noesis Pattern Recognition Software. 
 
 If you use this software for scientific purposes please site:
 
